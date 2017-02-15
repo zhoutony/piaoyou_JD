@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36A3FCF8-09C7-4572-815C-4325847AC4FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JD.MovieAPI</RootNamespace>
+    <AssemblyName>JD.MovieAPI</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>C:\PiaoyouDebug\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Mtime.Community.Utility">
+      <HintPath>C:\PiaoyouDebug\Mtime.Community.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Mtime.Utility">
+      <HintPath>C:\PiaoyouDebug\Mtime.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Mtime.Web2">
+      <HintPath>C:\PiaoyouDebug\Mtime.Web2.dll</HintPath>
+    </Reference>
+    <Reference Include="Piaoyou.Pay">
+      <HintPath>C:\PiaoyouDebug\Piaoyou.Pay.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TicketFriend.Entity">
+      <HintPath>C:\PiaoyouDebug\TicketFriend.Entity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\Advertisement\Advertisement.cs" />
+    <Compile Include="Entity\Advertisement\AdvertisementInfo.cs" />
+    <Compile Include="Entity\Cinema\Cinema.cs" />
+    <Compile Include="Entity\InvokeResult.cs" />
+    <Compile Include="Entity\Letv\AlbumInfo.cs" />
+    <Compile Include="Entity\Letv\CategoryInfo.cs" />
+    <Compile Include="Entity\Letv\VideoInfo.cs" />
+    <Compile Include="Entity\Location\LocationInfo.cs" />
+    <Compile Include="Entity\MovieNew\NewsSource.cs" />
+    <Compile Include="Entity\InvokeResultList.cs" />
+    <Compile Include="Entity\MovieNew\MovieNew.cs" />
+    <Compile Include="Entity\MovieNew\NewsInfo.cs" />
+    <Compile Include="Entity\Movie\Movie.cs" />
+    <Compile Include="Entity\Pay\QueryWeixinPayParamInfo.cs" />
+    <Compile Include="Entity\Order\Order.cs" />
+    <Compile Include="Entity\Pay\OrderCallback.cs" />
+    <Compile Include="Entity\PiaoyouCard\PiaoyouCards.cs" />
+    <Compile Include="Entity\RedEnvelopes\RedEnvelopes.cs" />
+    <Compile Include="Entity\Seat\SeatInfo.cs" />
+    <Compile Include="Entity\LockSeatsInfo.cs" />
+    <Compile Include="Entity\Showtime\Showtime.cs" />
+    <Compile Include="Entity\weixin\WeixinBaseConfigInfo.cs" />
+    <Compile Include="Entity\weixin\WiexinRightConfig.cs" />
+    <Compile Include="Entity\weixin\GlobalAccessTokenResult.cs" />
+    <Compile Include="Entity\weixin\WeixinPlayParam.cs" />
+    <Compile Include="Entity\weixin\WeiXinUserInfo.cs" />
+    <Compile Include="Entity\ShareResult.cs" />
+    <Compile Include="Entity\TicketStatus.cs" />
+    <Compile Include="Entity\OrderInvokeResult.cs" />
+    <Compile Include="Facade\JDFacade.cs" />
+    <Compile Include="JDEntity\Constants\CinemaTypeJD.cs" />
+    <Compile Include="JDEntity\Constants\StatusJD.cs" />
+    <Compile Include="JDEntity\JDInvokeResult.cs" />
+    <Compile Include="JDEntity\JDCinemaInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\PiaoyouHelper.cs" />
+    <Compile Include="Utility\SpiderHelper.cs" />
+    <Compile Include="Utility\XMLHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

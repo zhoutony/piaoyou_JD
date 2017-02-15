@@ -1,0 +1,17 @@
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\Mtime.Utility.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\Mtime.Web2.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\NPOI.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\TicketFriend.Constants.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\TicketFriend.Entity.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\Mtime.Utility.pdb
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\Mtime.Web2.pdb
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\TicketFriend.Constants.pdb
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\TicketFriend.Entity.pdb
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\obj\Debug\JD.MovieAPI.MVC.csprojResolveAssemblyReference.cache
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\HtmlAgilityPack.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\JD.MovieAPI.MVC.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\JD.MovieAPI.MVC.pdb
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\JD.MovieAPI.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\bin\Debug\JD.MovieAPI.pdb
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\obj\Debug\JD.MovieAPI.MVC.dll
+D:\piaoyou\work\Piaoyou\Code\jd.api\api\Piaoyou.API.MVC\obj\Debug\JD.MovieAPI.MVC.pdb

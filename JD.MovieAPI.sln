@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JD.MovieAPI", "Piaoyou.API\JD.MovieAPI.csproj", "{36A3FCF8-09C7-4572-815C-4325847AC4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JD.MovieAPI.MVC", "Piaoyou.API.MVC\JD.MovieAPI.MVC.csproj", "{F82E517B-F8B0-4960-81B2-804785B4F57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JD.MovieAPI.Web", "Piaoyou.API.Web\JD.MovieAPI.Web.csproj", "{1009803A-54BE-4D57-97E8-F662E67AACE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A3FCF8-09C7-4572-815C-4325847AC4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A3FCF8-09C7-4572-815C-4325847AC4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A3FCF8-09C7-4572-815C-4325847AC4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A3FCF8-09C7-4572-815C-4325847AC4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82E517B-F8B0-4960-81B2-804785B4F57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82E517B-F8B0-4960-81B2-804785B4F57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82E517B-F8B0-4960-81B2-804785B4F57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82E517B-F8B0-4960-81B2-804785B4F57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1009803A-54BE-4D57-97E8-F662E67AACE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1009803A-54BE-4D57-97E8-F662E67AACE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1009803A-54BE-4D57-97E8-F662E67AACE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1009803A-54BE-4D57-97E8-F662E67AACE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
